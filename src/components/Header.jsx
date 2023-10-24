@@ -19,10 +19,10 @@ function Header() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content mx-10">
           <div className="max-w-md">
-            <p className="mt-[140px] 2xl:text-[25px] xl:text-[25px] lg:text-[25px] md:text-[25px]  sm:text-[25px]  max-[640px]:text-[25px] max-[560px]:text-[22px] max-[560px]:mt-[200px]  mb-3">
+            <p className="mt-[140px] 2xl:text-[25px] xl:text-[25px] lg:text-[25px] md:text-[25px]  sm:text-[15px]  max-[640px]:text-[15px] max-[560px]:text-[22px] max-[560px]:mt-[200px]  mb-3">
               Hello, My name is
             </p>
-            <h1 className="mb-5  2xl:text-[45px] xl:text-[45px] lg:text-[45px] md:text-[45px]  sm:text-[45px]  max-[640px]:text-[45px] max-[470px]:text-[35px] font-semibold  ">
+            <h1 className="mb-5  2xl:text-[45px] xl:text-[45px] lg:text-[45px] md:text-[45px]  sm:text-[30px]  max-[640px]:text-[30px]  font-semibold  ">
               Piyawalee Srisuwan
             </h1>
             <div
