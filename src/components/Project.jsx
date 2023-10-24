@@ -52,7 +52,7 @@ function Project() {
                     </div>
                   )}
                 </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p className="font-base ">{project.content}</p>
                 <div className="card-actions justify-end mb-3 ">
                   {project.stack.map((stacks, index) => (
                     <div
@@ -94,14 +94,12 @@ function Project() {
             </div>
 
             {openModalIndex === index && (
-              <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-20 w-screen h-screen">
-                <div className="modal-box flex flex-col items-center justify-center rounded-2xl shadow-xl w-[700px] h-[800px] bg-base-300 mt-10">
-                  <p className="font-noto-serif-display font-semibold text-[40px] text-green-600">
-                    Success
+              <div className="fixed inset-0 flex  items-center justify-center z-50  bg-opacity-20 w-screen h-screen mt-5">
+                <div className="modal-box flex flex-col items-center   rounded-2xl shadow-xl w-[700px] h-[800px] bg-base-200 border-[#8564e1] border-[1px] mt-5">
+                  <p className=" font-semibold  text-[#8564e1] text-[45px] mb-5">
+                    {project.name}
                   </p>
-                  <p className="py-4 font-bold text-[20px] text-center">
-                    <h1>{project.name}</h1>
-                  </p>
+
                   <ReactPlayer
                     width="100%"
                     height="auto"
@@ -114,11 +112,37 @@ function Project() {
                         },
                       },
                     }}
-                    defaultPlaybackRate={2}
                   />
-                  <div className="modal-action">
+                  <div className="w-full h-[150px] mt-5">
+                    <div className="flex flex-row  ">
+                      <p className="mr-2 text-xl font-semibold text-[#8564e1]">
+                        Stack:
+                      </p>
+                      <p
+                        className="font-normal text-lg"
+                        style={{
+                          maxWidth: "400px",
+                          whiteSpace: "pre-wrap",
+                          wordWrap: "break-word",
+                        }}
+                      >
+                        {project.stackDetails}
+                      </p>
+                    </div>
+                    <div className="flex flex-col  ">
+                      <p className="mr-2 text-xl font-semibold text-[#8564e1]">
+                        Features:
+                      </p>
+                      {project.features.map((feature, index) => (
+                        <p key={index} className="font-normal text-lg ml-16">
+                          {feature}
+                        </p>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="modal-action mt-[120px]">
                     <button
-                      className="btn btn-primary bg-[#8564e1] hover:bg-[#c0adf5] hover:text-gray-800 mt-8"
+                      className="btn btn-primary bg-[#8564e1] hover:bg-[#c0adf5] hover:text-gray-800   w-[100px]"
                       onClick={() => {
                         setOpenModalIndex(null);
                       }}
