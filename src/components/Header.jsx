@@ -26,6 +26,7 @@ function Header() {
               Piyawalee Srisuwan
             </h1>
             <div
+              className="fullstack"
               style={{
                 fontSize: "28px",
                 fontWeight: 500,
@@ -34,7 +35,7 @@ function Header() {
             >
               <Typewriter
                 options={{
-                  strings: ["Full Stack Developer..."],
+                  strings: ["Full Stack Developer"],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 50,
@@ -78,7 +79,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-base-200 h-[210px] w-[210px] rounded-full z-10 absolute top-[58px]"></div>
+      <div className="bg-base-200 h-[210px] w-[210px] rounded-full z-10 absolute top-[58px] max-[768px]:h-[105px] max-[768px]:w-[105px]"></div>
       <img
         src={profile}
         className="h-[200px]  w-auto rounded-full mt-[66px] z-20 absolute -top-[3px]"
