@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import Piyawalee from "../assets/image/Piyawalee.png";
+import profile from "../assets/image/profile2.png";
 import GithubImage from "../assets/image/github.svg";
 import LinkedinImage from "../assets/image/linkedin.svg";
 
@@ -80,7 +80,7 @@ function Header() {
       </div>
       <div className="bg-base-200 h-[210px] w-[210px] rounded-full z-10 absolute top-[58px]"></div>
       <img
-        src={Piyawalee}
+        src={profile}
         className="h-[200px]  w-auto rounded-full mt-[66px] z-20 absolute -top-[3px]"
         alt="Piyawalee"
       />
