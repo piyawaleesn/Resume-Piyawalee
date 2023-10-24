@@ -54,7 +54,7 @@ function Footer() {
                     <img src={Email} className="h-6  w-auto " alt="email" />
                   </span>
                   <input
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder="Your email"
                     className="input input-bordered hover:border-[#8564e1]"
