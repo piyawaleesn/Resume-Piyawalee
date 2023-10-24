@@ -113,7 +113,7 @@ function Project() {
                       },
                     }}
                   />
-                  <div className="w-full h-[150px] mt-5">
+                  <div className="w-full  mt-5">
                     <div className="flex flex-row  ">
                       <p className="mr-2 text-xl font-semibold text-[#8564e1]">
                         Stack:
@@ -140,7 +140,7 @@ function Project() {
                       ))}
                     </div>
                   </div>
-                  <div className="modal-action mt-[120px]">
+                  <div className="mt-5 ">
                     <button
                       className="btn btn-primary bg-[#8564e1] hover:bg-[#c0adf5] hover:text-gray-800   w-[100px]"
                       onClick={() => {
