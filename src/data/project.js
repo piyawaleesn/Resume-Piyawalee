@@ -13,7 +13,7 @@ const projectDetails = [
     status: "Completed",
     github: "https://github.com/piyawaleesn/Hotel-Management-System",
     stackDetails:
-      "CSS, TypeScript, React.js, Node.js, TailwindCSS, daisyUI, MaterialUI, Axios, Node.js, Express  and Supabase",
+      "CSS, TypeScript, React.js, Vite.js, TailwindCSS, daisyUI, MaterialUI, Axios, Node.js, Express  and Supabase",
     features: [
       "-CRUD (Create, Read, Update, Delete) ",
       "-Upload pictures",
@@ -32,7 +32,7 @@ const projectDetails = [
     status: "In Progress",
     github: "https://github.com/piyawaleesn/merrymatch",
     stackDetails:
-      "CSS, JavaScript, Next.js, Prisma, Vite.js, TailwindCSS, daisyUI, MaterialUI, Axios,and Supabase",
+      "CSS, JavaScript, Next.js, Prisma, Node.js, TailwindCSS, daisyUI, MaterialUI, Axios and Supabase",
     features: [
       "-CRUD (Create, Read, Update, Delete) ",
       "-Upload pictures",
