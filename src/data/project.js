@@ -13,7 +13,7 @@ const projectDetails = [
     status: "Completed",
     github: "https://github.com/piyawaleesn/Hotel-Management-System",
     stackDetails:
-      "CSS, TypeScript, React.js, Vite.js, TailwindCSS, daisyUI, MaterialUI, Axios, Node.js, Express  and Supabase",
+      "CSS, TypeScript, React.js, Node.js, TailwindCSS, daisyUI, MaterialUI, Axios, Node.js, Express  and Supabase",
     features: [
       "-CRUD (Create, Read, Update, Delete) ",
       "-Upload pictures",
