@@ -94,8 +94,8 @@ function Footer() {
                 Address:{" "}
               </h1>
               <p className="text-lg font-base mb-5">
-                238 Moo 4, Ban Tun, Muang District, <br />
-                Phayao, 56000
+                Pornthip Apartment, Chalearnnakorn Soi 56 Samre, Khet Thon Buri,
+                Bangkok, 10600
               </p>
               <div className="flex flex-row items-center mb-5">
                 <h1 className=" mb-1 text-2xl mr-1 font-semibold text-[#8564e1]">
