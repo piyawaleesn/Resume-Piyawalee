@@ -1,5 +1,4 @@
 import Typewriter from "typewriter-effect";
-import piyawaleeProfile from "../assets/image/Piyawalee2.png";
 import GithubImage from "../assets/image/github.svg";
 import LinkedinImage from "../assets/image/linkedin.svg";
 
