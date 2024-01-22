@@ -80,7 +80,7 @@ function Header() {
       </div>
       <div className="bg-base-200 h-[210px] w-[210px] rounded-full z-10 absolute top-[58px]"></div>
       <img
-        src={piyawaleeProfile}
+        src="https://zmtcmuexuftdibplshxw.supabase.co/storage/v1/object/sign/Res/piyawalee.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJSZXMvcGl5YXdhbGVlLnBuZyIsImlhdCI6MTcwNTkzMTUzOSwiZXhwIjoxNzM3NDY3NTM5fQ.dShrvQcRwKdd-NHFY2FFDoCCcB4CHKW4q6BrCtDXtKQ&t=2024-01-22T13%3A52%3A34.110Z"
         className="h-[200px]  w-auto rounded-full mt-[66px] z-20 absolute -top-[3px]"
         alt="Piyawalee"
       />
