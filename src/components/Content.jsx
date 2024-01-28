@@ -61,10 +61,10 @@ function Content() {
             />
             <p className="mx-10 text-center text-lg font-base z-20">
               I hold a degree in materials engineering and I am seeking a junior
-              full stack developer position. I have skills in using tech stack
-              such as React, Node.js, and Express I am always eager to learn new
-              tools and continually develop my skills in various fields to work
-              towards becoming a proficient full stack developer.
+              Front-End developer position. I have skills in using tech stack
+              such as React I am always eager to learn new tools and continually
+              develop my skills in various fields to work towards becoming a
+              proficient Front-End developer.
             </p>
           </div>
         </div>
